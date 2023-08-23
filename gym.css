@@ -1,0 +1,109 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    color: white;
+    background-image: url("https://i.pinimg.com/originals/1c/44/b9/1c44b9a9297b6fad9057296490487cd5.jpg");
+    background-size: cover ;
+            background-position: center;
+            width: 100%;
+            height: 100vh;
+    
+}
+.left{
+    /* border: 2px solid red; */
+    display: inline-block;
+    position: absolute;
+    left: 30px;
+    top: -9px;
+}
+.left img{
+    width: 120px;
+    filter: invert(100%);
+}
+.left div{
+    text-align: center;
+    font-family: 'Lobster', cursive;
+    font-size: 35px;
+    line-height: 28px;
+}
+.mid{
+    /* border: 2px solid rgb(36, 243, 243); */
+    margin: 20px auto;
+    display: block;
+    width: 40%;
+   
+}
+.right{
+    display: inline-block;
+    /* border: 2px solid yellow; */
+    position: absolute;
+    right: 10px;
+    top: 20px;
+    width: 300px;
+}
+.navbar{
+    display: inline-block;
+}
+.navbar li{
+    display: inline-block;
+    font-size: 20px;
+    
+}
+.navbar li a{
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+}
+.navbar li a:hover, .navbar li a.active{
+    text-decoration: underline;
+    background-color: rgba(255, 255, 255, 0.322);
+}
+.btn{
+    margin: 0px 9px;
+    padding: 9px;
+    width:130px ;
+    background-color: rgba(0, 0, 0, 0.466);
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+    border: 1px solid white;
+}
+.btn:hover, .btn:active{
+    font-weight: bolder;
+    
+    
+}
+.container{
+    border: 1px solid white;
+    padding: 4px 4px;
+    width: 50%;
+    margin-top: 100px;
+    margin-left: 100px;
+    border-radius: 10px;
+    
+}
+.form_grp input{
+    font-size: 20px;
+    text-align: center;
+    display: block;
+    margin: 11px auto;
+    width: 440px;
+    padding: 20px;
+    background-color:white;
+
+
+}
+.container h1{
+    text-align: center;
+
+}
+.container button{
+    display: block;
+    width: 30% ;
+    margin: 15px auto;
+    border: 1px solid white;
+    font-size: 20px;
+}
+.container button:hover{
+    background-color: rgba(255, 255, 255, 0.178);
+}
